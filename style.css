@@ -1,0 +1,118 @@
+body {
+	background-color: FFFFFF;
+	color:203c4c;
+	font-family: ebrima;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+#profile {
+	width: 417px
+}
+
+#title {
+	font-size: 36px;
+	margin-left: 75px;
+}
+
+#facts {
+	font-size : 22px;
+	margin-left: 25px;
+}
+
+#education {
+	font-size : 22px;
+	margin-left: 75px;
+	text-align: justify;
+}
+
+#page {
+	font-size: 22px;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-align: justify;
+}
+
+.float-child {
+	width: 25%;
+	float:right;
+	margin-right: 75px;
+	margin-left: 75px;
+	border: 1px solid black;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 725px) {
+	.float-child {
+		width: 400px;
+		margin-right: 0px;
+		margin-left: 75px;
+	}
+	#profile {
+		width: 400px;
+	}
+	#hobbies {
+		width: 300px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	#title {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#education {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.float-childseoul {
+		margin-left: 0px;
+		margin-right: 100px;
+	}
+	.float-childbangkok {
+		margin-left: 0px;
+		margin-right: 200px;
+	}
+	#korea {
+		width: 200px;
+	}
+}
+
+.float-childseoul {
+	width: 27%;
+	float: left;
+	margin-left: 75px;
+	line-height: 0px;
+}
+
+.float-childbangkok {
+	width: 27%;
+	float: left;
+	margin-left: 71px;
+	line-height: 0px;
+}
+
+.float-childkyoto {
+	width: 27%;
+	float: left;
+	margin-left: 71px;
+	line-height: 0px;
+}
+
+#korea {
+	width: 475px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+#seoulcity {
+	font-size: 24px;
+	text-align: center;
+}
+
+#hobbies {
+	font-size : 22px;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-align: justify;
+}
